@@ -1,0 +1,83 @@
+:root {
+  --background: #1a0505;
+  /* Deep Red-Black */
+  --foreground: #fff0f0;
+
+  /* Passion Red Palette */
+  --primary: #d90429;
+  /* Vivid Red */
+  --primary-glow: rgba(217, 4, 41, 0.6);
+  --secondary: #ef233c;
+  /* Bright Red */
+  --accent: #ffd700;
+  /* Gold Accent for luxury */
+  --dark-red: #8d99ae;
+
+  /* Glassmorphism */
+  --glass: rgba(217, 4, 41, 0.1);
+  --glass-border: rgba(255, 215, 0, 0.3);
+  /* Gold border */
+  --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+
+  --font-outfit: var(--font-outfit);
+  --font-playfair: var(--font-playfair);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  /* Deep Luxury Red Gradient */
+  background: radial-gradient(circle at 50% 50%, #2b0505 0%, #0f0101 100%);
+  color: var(--foreground);
+  font-family: var(--font-outfit), sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-playfair), serif;
+  font-weight: 700;
+}
+
+button {
+  font-family: var(--font-outfit), sans-serif;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  box-shadow: var(--card-shadow);
+}
