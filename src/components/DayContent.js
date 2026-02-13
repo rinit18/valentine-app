@@ -283,7 +283,7 @@ export default function DayContent({ day, children }) {
                         😘
                     </motion.div>
                     <p style={{ fontSize: '2rem', color: '#ff0055' }}>
-                        Sending you a million kisses!
+                        Sending you a Infinite kisses!
                     </p>
                     <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', overflow: 'hidden' }}>
                         {/* Floating Kisses */}

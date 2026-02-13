@@ -93,7 +93,7 @@ export default function ValentineQuestion({ onYes }) {
                             cursor: 'pointer'
                         }}
                     >
-                        {hoverCount > 5 ? "Pretty Please? 🥺" : "No"}
+                        {hoverCount > 5 ? "Madam Please? 🥺" : "No"}
                     </motion.button>
                 </div>
             </motion.div>
